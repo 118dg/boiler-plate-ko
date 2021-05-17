@@ -5,9 +5,9 @@ const userSchema = mongoose.Schema({
     type: String,
     maxlength: 50
   },
-email: {
+  email: {
     type: String,
-    trim: true,
+    trim: true, //스페이스를 없애줌
     unique: 1
   },
   password: {
@@ -24,9 +24,10 @@ email: {
   },
   image: String,
   token: {
-    type: String
+    type: String //유효성 검사할 때
   },
   tokenExp: {
+    //토큰을 사용할 수 있는 기간
     type: Number
   }
 })
