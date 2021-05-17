@@ -1,8 +1,8 @@
 # boiler-plate-ko
 
 
-### part 10
-https://www.youtube.com/watch?v=XonyJxSDoGE&list=PL9a7QRYt5fqkZC9jc7jntD1WuAogjo_9T&index=10
+### part 9
+https://www.youtube.com/watch?v=0z1jV4rzaH0&list=PL9a7QRYt5fqkZC9jc7jntD1WuAogjo_9T&index=9
 
 - 헤로쿠 부분
 https://www.youtube.com/watch?v=qdoiwouykAg 7:00 까지 실행했음
