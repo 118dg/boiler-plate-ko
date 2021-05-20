@@ -86,6 +86,18 @@ app.get('/api/users/auth', auth, (req, res) => {
   })
 })
 
+//DB의 token을 삭제해주면 client의 token과 매칭이 안 되기 때문에 login 상태에서 빠져나온다(로그아웃)
+app.get('/api/users/logout', auth, (req, res) => {
+  User.findOneAndUpdate({ _id: req.user._id }, //유저 id로 유저 찾기
+    { token: "" } //토큰 삭제
+    , (err, user) => {
+      if (err) return res.json({ success: false, err });
+      return res.status(200).send({
+        success: true
+      })
+    })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
