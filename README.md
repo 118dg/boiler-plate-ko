@@ -13,3 +13,8 @@ https://www.youtube.com/watch?v=qdoiwouykAg 7:00 까지 실행했음
 ### part 12
 how to use jsonwebtoken
 https://www.npmjs.com/package/jsonwebtoken
+
+
+### part 19  리액트 개발 할 때 사용하면 편리한 도구들 - Prettier, ESLint, Snippet
+https://react.vlpt.us/basic/27-useful-tools.html
+
