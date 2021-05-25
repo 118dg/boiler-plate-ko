@@ -11,6 +11,8 @@ Please help to support us by taking a look and signing up to a free trial GitAds
 - mongoDB 정보를 dev.js file안에다가 넣어주세요.
 - " npm install "을 root directory에서 입력해주세요. (백엔드 종속성 다운받기)
 - " npm install "을 client directory에서 입력해주세요. (프론트엔드 종속성 다운받기)
+- server/config 폴더 하위에 dev.js 파일을 만들고 read.me 맨 하단에 첨부되어있는 dev.js 소스 코드를 작성해주세요.
+   
 이 강의는 아래 보이는 링크를 통해서 보실수 있습니다.
 
 https://www.youtube.com/watch?v=fgoMqmNKE18&list=PL9a7QRYt5fqkZC9jc7jntD1WuAogjo_9T
@@ -41,3 +43,13 @@ https://reactrouter.com/web/example/basic
 
 ### part 21
 https://create-react-app.dev/docs/proxying-api-requests-in-development/
+
+
+-------------------------------------------------------------------------------------------
+
+
+### dev.js
+   
+module.exports = {
+    mongoURI:'mongodb+srv://maoki:namoo@boilerplate.somjn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+}
