@@ -9,8 +9,6 @@ function LandingPage(props) {
           .then(response => { console.log(response) })
   }, [])
 
-
-  /*
   const onClickHandler = () => {
       axios.get(`/api/users/logout`)
           .then(response => {
@@ -21,7 +19,6 @@ function LandingPage(props) {
               }
           })
   }
-  */
 
   return (
       <div style={{
